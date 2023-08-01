@@ -22,6 +22,8 @@ Create 3 worksheet Using same data information
 **In the worksheet below** also referred to as work sheet3, I used conditional formatting, clicked on more rules and chose "cells that only contain". I specified the text by using specific text format and included the yellow color. To highlight highest SALARY with green background and the lowest SALARY with red background again I used conditional formatting, this time I chose "format only top or bottom ranked" that is after clicking on more rules, then I used "top 1" for highest and "Bottom 1" for lowest and applied the relevant colors.
 ![](https://github.com/AnietieJohnson/Week1-Excel-task/blob/main/Employee%20whose%20name%20begin%20with%20e.png)
 
+
+
 # TASK 2
 ## Introduction
 The second class of my training was a detailed lesson on Excel formulas and function, where I learnt how to use relative and absolute referencing and the basic funtions in excel that aids the use of formulas for excel calculations. With this, I learnt how to analyze sales data and how using this formulas to answer questions can gives clarity to business growth. After the day's discussion, a task followed. The task was to use formulas and functions in excel to answer questions regarding a sales data that contained the following column headings: Segment, Country, Product, Discount, Units Sold, Manufacturing Price, Sale Price, Gross Sales, Discounts, Sales, Profit, and Month columns.
@@ -39,20 +41,20 @@ Using the same Sales Data, determine the following
 ## Raw Dataset
 ![](https://github.com/AnietieJohnson/Week1-Excel-task/blob/main/Raw%20data%20for%20Task%202.png)
 ## Task Solutions
-For Question 1, I calculated for total revenue and total Profit generated. I used the SUM function i.e =SUM(J2:J701) which is the addition of all cells in the sales column and =SUM(K2:K701) which is the addition of all cells in the profit column respectively.
+For Question 1, I calculated for total revenue and total Profit generated. I used the **_SUM function_** i.e =SUM(J2:J701) which is the addition of all cells in the sales column and =SUM(K2:K701) which is the addition of all cells in the profit column respectively.
 Total Revenue                                                       | Total Profit
 :------------------------------------------------------------------:|:-----------------------------------------------------------------:
 ![](https://github.com/AnietieJohnson/Week1-Excel-task/blob/main/Total%20Revenue%20Generated.png) | ![](https://github.com/AnietieJohnson/Week1-Excel-task/blob/main/Total%20profit%20generated.png)
-Question 2, I calculated Average revenue and Average Unit sold for every order. I used The Average function i.e  =AVERAGE(J2:J701) which is the average of all cells in the sales column and =AVERAGE(E2:E701) which is the average of all cells in the column for units sold.
+Question 2, I calculated Average revenue and Average Unit sold for every order. I used The **_Average function_** i.e  =AVERAGE(J2:J701) which is the average of all cells in the sales column and =AVERAGE(E2:E701) which is the average of all cells in the column for units sold.
 **Average Revenue**                                                       | **Average Unit sold**
 :------------------------------------------------------------------:|:-----------------------------------------------------------------:
 ![](https://github.com/AnietieJohnson/Week1-Excel-task/blob/main/Average%20revenue.png) | ![](https://github.com/AnietieJohnson/Week1-Excel-task/blob/main/Average%20Unit%20sold.png)
 
-Question 3, I calculated the total Discount given by using the SUM funtion i.e =SUM(I2:I701) which is the addition of all cells in the Discount column 
+Question 3, I calculated the total Discount given by using the **_SUM funtion_** i.e =SUM(I2:I701) which is the addition of all cells in the Discount column 
 ![](https://github.com/AnietieJohnson/Week1-Excel-task/blob/main/Total%20discount%20given.png)
-For question 4, to calculate the total number of sales I used the COUNT funtion, which helps in numbering the sales and giving the total number i.e =COUNT(J2:J701)
+For question 4, to calculate the total number of sales I used the **_COUNT funtion_**, which helps in numbering the sales and giving the total number i.e =COUNT(J2:J701)
 ![](https://github.com/AnietieJohnson/Week1-Excel-task/blob/main/Number%20of%20sales%20Generated.png)
-To calculate Highest profit in question 5, I Used the Max funtion, which returns the maximun number in a group of cells down a column. in this case for profit column i.e =MAX(K2:K701)
+To calculate Highest profit in question 5, I Used the **_Max funtion_**, which returns the maximun number in a group of cells down a column. in this case for profit column i.e =MAX(K2:K701)
 ![](https://github.com/AnietieJohnson/Week1-Excel-task/blob/main/Highest%20profit%20generated.png)
-For the last Question, I used the conditional function IF, where I stated a logical test and gave conditions if true and if not.It is used two conditions "high" and "low"are used to define one variable "Sales" from a particular point i.e =IF(J2>$P$3,"High sales","Low sales") where P3 is the cell name where the average sales. I also used absolute referencing to hold the cell so it becomes a constant as we move down the sales column.
-![]
+For the last Question, I used the **_conditional function IF_**, where I stated a logical test and gave conditions if true and if not.It is used two conditions "high" and "low"are used to define one variable "Sales" from a particular point i.e =IF(J2>$P$3,"High sales","Low sales") where P3 is the cell name where the average sales. I also used absolute referencing to hold the cell so it becomes a constant as we move down the sales column.
+![](https://github.com/AnietieJohnson/Week1-Excel-task/blob/main/High%20or%20low%20sales%20column.png)
